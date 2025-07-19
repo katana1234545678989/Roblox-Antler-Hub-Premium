@@ -146,3 +146,12 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/Really%20op%20script%20pop%20it%20trading"))()
    end,
 })
+
+local Tab = Window:CreateTab("Hand Signals(pc)", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Hand Signals(pc)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/hat-scripts/refs/heads/main/updatedhathub.lua"))()
+   end,
+})
