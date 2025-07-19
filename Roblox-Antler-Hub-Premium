@@ -1,0 +1,662 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Antler Hub premium",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Loading..",
+   LoadingSubtitle = "by Antlar",
+   ShowText = "Open Antler Hub", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Antler Hub premium"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "premium Key System",
+      Subtitle = "premium Key System",
+      Note = "Join the Discord Server https://discord.gg/HvjbhkruC8", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"164cgh-824Sow-MSp836", "OwnerAntler" , "ONLYTESTINGHUB" , "HDj915-kzE821-9K38r", "734ndt-ueh726-KwQ947"}
+   }
+})
+
+local Tab = Window:CreateTab("roblox shooting games", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Rivals, arsenal more(key System)",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/gcUsjvks"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Ink Game", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Ink Game(some functions may not work, dm Antlar on the Discord Server)",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("BedWars", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "BedWars",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/void2realyt/RainWare-V6/refs/heads/main/init.luau"))()
+   end,
+})
+
+local Tab = Window:CreateTab("kat", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "kat",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripter1cursed1rade/BelugaWare-1.4/main/belugaware.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Tower Of Hell", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Tower Of Hell",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BeeTech02/-Tower-Of-Hell/refs/heads/main/CheatBypass.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Infinite Yield", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Yarhm Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+   end,
+})
+
+local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Steal A Brainrot( Probably Down RN)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/ArbixHubBEST.lua"))()
+   end,
+})
+
+Rayfield:Notify({
+   Title = "Script Patching",
+   Content = "If any Script Patched, DM the Owner(Antlar) on the Discord Server",
+   Duration = 7.5,
+   Image = 4483362458,
+})
+
+local Tab = Window:CreateTab("Starving Arts", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Starving Arts",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/StarvingArtist.lua"))()
+   end,
+})
+
+--Working Codes = "164cgh-824Sow-MSp836", "ONLYTESTINGHUB" , "HDj915-kzE821-9K38r" "734ndt-ueh726-KwQ947"
+--these codes are usable when premium is bought - except the "ONLYTESTINGHUB" because it is used for Script Testers ONLY!!!
+--If we caught you using Script Testers Key, you will be PERMANENTLY BANNED from the hub and the Discord Server!!! (If you are a Script Tester you will not be banned")
+
+local Tab = Window:CreateTab("Owl Hub", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Owl Hub 30+ Games(probably patched)",
+   Callback = function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/OwlHub.txt"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Pop It Trading", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Pop It Trading",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/Really%20op%20script%20pop%20it%20trading"))()
+   end,
+})
+
+--Working Codes = "164cgh-824Sow-MSp836", "ONLYTESTINGHUB" , "HDj915-kzE821-9K38r", "734ndt-ueh726-KwQ947" ,  "OwnerAntler"
+--these codes are usable when premium is bought - except the "ONLYTESTINGHUB" because it is used for Script Testers ONLY!!!
+--If we caught you using Script Testers Key, you will be PERMANENTLY BANNED from the hub and the Discord Server!!! (If you are a Script Tester you will not be banned")
+
+
+local Tab = Window:CreateTab("Fun", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Hyper Laser ShotGun",
+   Callback = function()
+ function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Tool0 = Instance.new("Tool")
+Part1 = Instance.new("Part")
+SpecialMesh2 = Instance.new("SpecialMesh")
+Sound3 = Instance.new("Sound")
+Sound4 = Instance.new("Sound")
+PointLight5 = Instance.new("PointLight")
+Weld6 = Instance.new("Weld")
+Weld7 = Instance.new("Weld")
+Weld8 = Instance.new("Weld")
+LocalScript9 = Instance.new("LocalScript")
+Sound10 = Instance.new("Sound")
+LocalScript11 = Instance.new("LocalScript")
+Part12 = Instance.new("Part")
+SpecialMesh13 = Instance.new("SpecialMesh")
+PointLight14 = Instance.new("PointLight")
+Script15 = Instance.new("Script")
+Script16 = Instance.new("Script")
+Tool0.Name = "LaserShotGun"
+Tool0.Parent = mas
+Tool0.TextureId = "http://www.roblox.com/asset?id=130093050"
+Tool0.GripForward = Vector3.new(-0.376944453, -0.000461966498, -0.926235735)
+Tool0.GripPos = Vector3.new(0, 0.200000003, 0.25000003)
+Tool0.GripRight = Vector3.new(0.926235914, -0.000188003658, -0.376944423)
+Tool0.GripUp = Vector3.new(1.45519152e-11, 0.999999881, -0.000498756883)
+Tool0.ToolTip = "Hyperlaser shotgun!"
+Tool0.CanBeDropped = false
+Part1.Name = "Handle"
+Part1.Parent = Tool0
+Part1.Rotation = Vector3.new(-180, 0, -180)
+Part1.CanCollide = false
+Part1.FormFactor = Enum.FormFactor.Custom
+Part1.Size = Vector3.new(0.580000222, 1.34000099, 4.48000145)
+Part1.CFrame = CFrame.new(-13.710001, 102.57, 47.8400002, -0.999997616, 9.05775108e-12, -1.88592058e-08, -9.13322282e-12, 0.999997377, 6.28057464e-08, -1.53668083e-08, -6.28641601e-08, -0.999999821)
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.Position = Vector3.new(-13.710001, 102.57, 47.8400002)
+Part1.Orientation = Vector3.new(0, -180, 0)
+SpecialMesh2.Parent = Part1
+SpecialMesh2.MeshId = "http://www.roblox.com/asset?id=130099641"
+SpecialMesh2.Scale = Vector3.new(1, 0.75, 1.5)
+SpecialMesh2.TextureId = "http://www.roblox.com/asset?id=130093033"
+SpecialMesh2.MeshType = Enum.MeshType.FileMesh
+SpecialMesh2.Scale = Vector3.new(1, 0.75, 1.5)
+Sound3.Name = "Fire"
+Sound3.Parent = Part1
+Sound3.Pitch = 0.5
+Sound3.SoundId = "http://www.roblox.com/asset?id=130113322"
+Sound3.Volume = 1
+Sound4.Name = "Reload"
+Sound4.Parent = Part1
+Sound4.Pitch = 0.5
+Sound4.SoundId = "http://www.roblox.com/asset?id=130113370"
+PointLight5.Parent = Part1
+PointLight5.Color = Color3.new(0, 1, 1)
+PointLight5.Range = 6
+PointLight5.Color = Color3.new(0, 1, 1)
+Weld6.Parent = Part1
+Weld6.C0 = CFrame.new(0, 0, 0, -3.17205462e-08, 2.98023188e-08, 0.999999821, 4.42590249e-08, 0.999999821, -2.98023295e-08, -1, 4.42590107e-08, -3.17205746e-08)
+Weld6.C1 = CFrame.new(0, 0, 0, -3.17205462e-08, 2.98023188e-08, 0.999999821, 4.42590249e-08, 0.999999821, -2.98023295e-08, -1, 4.42590107e-08, -3.17205746e-08)
+Weld6.Part0 = Part1
+Weld6.Part1 = Part1
+Weld7.Parent = Part1
+Weld7.C0 = CFrame.new(0, 0, 0, -0.823671401, 0.00976598449, 0.566983223, 0.566961288, -0.00514982874, 0.823728263, 0.0109643862, 0.999939024, -0.00129515026)
+Weld7.C1 = CFrame.new(0, 0, 0, -0.823671401, 0.00976598449, 0.566983223, 0.566961288, -0.00514982874, 0.823728263, 0.0109643862, 0.999939024, -0.00129515026)
+Weld7.Part0 = Part1
+Weld7.Part1 = Part1
+Weld8.Parent = Part1
+Weld8.C0 = CFrame.new(0, 0, 0, -0.823671401, 0.00976598449, 0.566983223, 0.566961288, -0.00514982874, 0.823728263, 0.0109643862, 0.999939024, -0.00129515026)
+Weld8.C1 = CFrame.new(-0.399999499, 0, 1.1920929e-07, -0.823670983, 0.00976601522, 0.566982925, 0.56696099, -0.00514967833, 0.823727846, 0.0109643312, 0.999939024, -0.00129529205)
+Weld8.Part0 = Part1
+Weld8.Part1 = Part12
+LocalScript9.Name = "ToolScript"
+LocalScript9.Parent = Tool0
+table.insert(cors,sandbox(LocalScript9,function()
+-----------------
+--| Constants |--
+-----------------
+
+local SHOT_SPEED =250
+local SHOT_TIME = 1
+
+local NOZZLE_OFFSET = Vector3.new(0, 0.4, -1.1)
+
+-----------------
+--| Variables |--
+-----------------
+
+local PlayersService = Game:GetService('Players')
+local DebrisService = Game:GetService('Debris')
+
+local Tool = script.Parent
+local Handle = Tool:WaitForChild('Handle')
+
+local FireSound = Handle:WaitForChild('Fire')
+local ReloadSound = Handle:WaitForChild('Reload')
+local HitFadeSound = script:WaitForChild('HitFade')
+
+local PointLight = Handle:WaitForChild('PointLight')
+
+local Character = nil
+local Humanoid = nil
+local Player = nil
+
+local BaseShot = nil
+
+-----------------
+--| Functions |--
+-----------------
+
+-- Returns a character ancestor and its Humanoid, or nil
+local function FindCharacterAncestor(subject)
+	if subject and subject ~= Workspace then
+		local humanoid = subject:FindFirstChild('Humanoid')
+		if humanoid then
+			return subject, humanoid
+		else
+			return FindCharacterAncestor(subject.Parent)
+		end
+	end
+	return nil
+end
+
+-- Removes any old creator tags and applies new ones to the specified target
+local function ApplyTags(target)
+	while target:FindFirstChild('creator') do
+		target.creator:Destroy()
+	end
+
+	local creatorTag = Instance.new('ObjectValue')
+	creatorTag.Value = Player
+	creatorTag.Name = 'creator' --NOTE: Must be called 'creator' for website stats
+
+	local iconTag = Instance.new('StringValue')
+	iconTag.Value = Tool.TextureId
+	iconTag.Name = 'icon'
+
+	iconTag.Parent = creatorTag
+	creatorTag.Parent = target
+	DebrisService:AddItem(creatorTag, 4)
+end
+
+-- Returns all objects under instance with Transparency
+local function GetTransparentsRecursive(instance, partsTable)
+	local partsTable = partsTable or {}
+	for _, child in pairs(instance:GetChildren()) do
+		if child:IsA('BasePart') or child:IsA('Decal') then
+			table.insert(partsTable, child)
+		end
+		GetTransparentsRecursive(child, partsTable)
+	end
+	return partsTable
+end
+
+local function SelectionBoxify(instance)
+	local selectionBox = Instance.new('SelectionBox')
+	selectionBox.Adornee = instance
+	selectionBox.Color = BrickColor.new('Toothpaste')
+	selectionBox.Parent = instance
+	return selectionBox
+end
+
+local function Light(instance)
+	local light = PointLight:Clone()
+	light.Range = light.Range + 2
+	light.Parent = instance
+end
+
+local function FadeOutObjects(objectsWithTransparency, fadeIncrement)
+	repeat
+		local lastObject = nil
+		for _, object in pairs(objectsWithTransparency) do
+			object.Transparency = object.Transparency + fadeIncrement
+			lastObject = object
+		end
+		wait()
+	until lastObject.Transparency >= 1 or not lastObject
+end
+
+local function Dematerialize(character, humanoid, firstPart)
+	humanoid.WalkSpeed = 0
+
+	local parts = {}
+	for _, child in pairs(character:GetChildren()) do
+		if child:IsA('BasePart') then
+			child.Anchored = true
+			table.insert(parts, child)
+		elseif child:IsA('LocalScript') or child:IsA('Script') then
+			child:Destroy()
+		end
+	end
+
+	local selectionBoxes = {}
+
+	local firstSelectionBox = SelectionBoxify(firstPart)
+	Light(firstPart)
+	wait(0.05)
+
+	for _, part in pairs(parts) do
+		if part ~= firstPart then
+			table.insert(selectionBoxes, SelectionBoxify(part))
+			Light(part)
+		end
+	end
+
+	local objectsWithTransparency = GetTransparentsRecursive(character)
+	FadeOutObjects(objectsWithTransparency, 0.1)
+
+	wait(0.5)
+
+	humanoid.Health = 0
+	DebrisService:AddItem(character, 2)
+
+	local fadeIncrement = 0.05
+	Delay(0.2, function()
+		FadeOutObjects({firstSelectionBox}, fadeIncrement)
+		if character then
+			character:Destroy()
+		end
+	end)
+	FadeOutObjects(selectionBoxes, fadeIncrement)
+end
+
+local function OnTouched(shot, otherPart)
+	local character, humanoid = FindCharacterAncestor(otherPart)
+	if character and humanoid and character ~= Character then
+		ApplyTags(humanoid)
+		if shot then
+			local hitFadeSound = shot:FindFirstChild(HitFadeSound.Name)
+			if hitFadeSound then
+				hitFadeSound.Parent = humanoid.Torso
+				hitFadeSound:Play()
+			end
+			shot:Destroy()
+		end
+		Dematerialize(character, humanoid, otherPart)
+	end
+end
+
+local function OnEquipped()
+	Character = Tool.Parent
+	Humanoid = Character:WaitForChild('Humanoid')
+	Player = PlayersService:GetPlayerFromCharacter(Character)
+end
+
+local function OnActivated()
+	if Tool.Enabled and Humanoid.Health > 0 then
+		Tool.Enabled = false
+
+		FireSound:Play()
+
+		local handleCFrame = Handle.CFrame
+		local firingPoint = handleCFrame.p + handleCFrame:vectorToWorldSpace(NOZZLE_OFFSET)
+		for i=1, 25 do
+		local target=Humanoid.TargetPoint
+		target = CFrame.Angles((0.5 - math.random()) * 2 * (math.random()*.04),
+											(0.5 - math.random()) * 2 * (math.random()*.04),
+											(0.5 - math.random()) * 2 * (math.random()*.04)) * target
+		
+		local shotCFrame = CFrame.new(firingPoint, target)
+
+
+		local laserShotClone = BaseShot:Clone()
+		laserShotClone.CFrame = shotCFrame + (shotCFrame.lookVector * (BaseShot.Size.Z / 2))
+		local bodyVelocity = Instance.new('BodyVelocity')
+		bodyVelocity.velocity = shotCFrame.lookVector * SHOT_SPEED
+		bodyVelocity.Parent = laserShotClone
+		laserShotClone.Touched:connect(function(otherPart)
+			OnTouched(laserShotClone, otherPart)
+		end)
+		DebrisService:AddItem(laserShotClone, SHOT_TIME)
+		laserShotClone.Parent = Tool
+		end
+		
+		Tool.GripPos=Vector3.new(0,.2,-.5)
+		Tool.GripRight=Vector3.new(0.926,.2,-0.377)
+		wait(.1)
+		Tool.GripPos=Vector3.new(0,.2,-0.25)
+		Tool.GripRight=Vector3.new(0.926,.15,-0.377)
+		wait(.1)
+		Tool.GripPos=Vector3.new(0,0.2,0)
+		Tool.GripRight=Vector3.new(0.926,.1,-0.377)
+		wait(.1)
+		Tool.GripPos=Vector3.new(0,0.2,0.125)
+		Tool.GripRight=Vector3.new(0.926,.05,-0.377)
+		wait(.1)
+		Tool.GripPos=Vector3.new(0,0.2,0.25)
+		Tool.GripRight=Vector3.new(0.926,0,-0.377)
+		wait(.25)
+		
+		ReloadSound:Play()
+		wait(1.25) -- ReloadSound length
+
+		Tool.Enabled = true
+	end
+end
+
+local function OnUnequipped()
+	
+end
+
+--------------------
+--| Script Logic |--
+--------------------
+
+BaseShot = Instance.new('Part')
+BaseShot.Name = 'Effect'
+BaseShot.FormFactor = Enum.FormFactor.Custom
+BaseShot.Size = Vector3.new(0.2, 0.2, 3)
+BaseShot.CanCollide = false
+BaseShot.BrickColor = BrickColor.new('Toothpaste')
+SelectionBoxify(BaseShot)
+Light(BaseShot)
+HitFadeSound:Clone().Parent = BaseShot
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Unequipped:connect(OnUnequipped)
+Tool.Activated:connect(OnActivated)
+
+end))
+Sound10.Name = "HitFade"
+Sound10.Parent = LocalScript9
+Sound10.SoundId = "http://www.roblox.com/asset?id=130113415"
+LocalScript11.Name = "MouseIcon"
+LocalScript11.Parent = Tool0
+table.insert(cors,sandbox(LocalScript11,function()
+local MOUSE_ICON = 'rbxasset://textures/GunCursor.png'
+local RELOADING_ICON = 'rbxasset://textures/GunWaitCursor.png'
+
+local Tool = script.Parent
+
+local Mouse = nil
+
+local function UpdateIcon()
+	if Mouse then
+		Mouse.Icon = Tool.Enabled and MOUSE_ICON or RELOADING_ICON
+	end
+end
+
+local function OnEquipped(mouse)
+	Mouse = mouse
+	UpdateIcon()
+end
+
+local function OnChanged(property)
+	if property == 'Enabled' then
+		UpdateIcon()
+	end
+end
+
+Tool.Equipped:connect(OnEquipped)
+Tool.Changed:connect(OnChanged)
+
+end))
+Part12.Name = "Barrel2"
+Part12.Parent = Tool0
+Part12.Rotation = Vector3.new(180, 0, 180)
+Part12.FormFactor = Enum.FormFactor.Custom
+Part12.Size = Vector3.new(0.580000222, 1.34000099, 4.48000145)
+Part12.CFrame = CFrame.new(-14.1099997, 102.57, 47.8400002, -0.999998212, -2.97932274e-08, 2.60770321e-08, -2.98114173e-08, 0.999998033, -1.00757461e-07, -4.09781933e-08, -1.94995664e-07, -0.999999881)
+Part12.BottomSurface = Enum.SurfaceType.Smooth
+Part12.TopSurface = Enum.SurfaceType.Smooth
+Part12.Position = Vector3.new(-14.1099997, 102.57, 47.8400002)
+Part12.Orientation = Vector3.new(0, 180, 0)
+SpecialMesh13.Parent = Part12
+SpecialMesh13.MeshId = "http://www.roblox.com/asset?id=130099641"
+SpecialMesh13.Scale = Vector3.new(1, 0.75, 1.5)
+SpecialMesh13.TextureId = "http://www.roblox.com/asset?id=130093033"
+SpecialMesh13.MeshType = Enum.MeshType.FileMesh
+SpecialMesh13.Scale = Vector3.new(1, 0.75, 1.5)
+PointLight14.Parent = Part12
+PointLight14.Color = Color3.new(0, 1, 1)
+PointLight14.Range = 6
+PointLight14.Color = Color3.new(0, 1, 1)
+Script15.Name = "Weld"
+Script15.Parent = Tool0
+table.insert(cors,sandbox(Script15,function()
+function Weld(x,y)
+	local W = Instance.new("Weld")
+	W.Part0 = x
+	W.Part1 = y
+	local CJ = CFrame.new(x.Position)
+	local C0 = x.CFrame:inverse()*CJ
+	local C1 = y.CFrame:inverse()*CJ
+	W.C0 = C0
+	W.C1 = C1
+	W.Parent = x
+end
+
+function Get(A)
+	if A.className == "Part" or A.className == "UnionOperation"then
+		Weld(script.Parent.Handle, A)
+		A.Anchored = false
+	else
+		local C = A:GetChildren()
+		for i=1, #C do
+		Get(C[i])
+		end
+	end
+end
+
+function Finale()
+	Get(script.Parent)
+end
+
+script.Parent.Equipped:connect(Finale)
+script.Parent.Unequipped:connect(Finale)
+Finale()
+end))
+Script16.Name = "WeldArm"
+Script16.Parent = Tool0
+table.insert(cors,sandbox(Script16,function()
+Tool = script.Parent
+
+local arms = nil
+local torso = nil
+local welds = {}
+local down = false
+
+function Equip(mouse)
+	wait(0.01)
+	arms = {Tool.Parent:FindFirstChild("Left Arm"), Tool.Parent:FindFirstChild("Right Arm")}
+	torso = Tool.Parent:FindFirstChild("Torso")
+	if arms ~= nil and torso ~= nil then
+		local sh = {torso:FindFirstChild("Left Shoulder"), torso:FindFirstChild("Right Shoulder")}
+		if sh ~= nil then
+			local yes = true
+			if yes then
+				yes = false
+				sh[1].Part1 = nil
+				sh[2].Part1 = nil
+				local weld1 = Instance.new("Weld")
+				weld1.Part0 = torso
+				weld1.Parent = torso
+				weld1.Part1 = arms[1]
+				weld1.C1 = CFrame.new(-.1, 1.25, .6) * CFrame.fromEulerAnglesXYZ(math.rad(290), math.rad(10), math.rad(-90))
+				welds[1] = weld1
+				local weld2 = Instance.new("Weld")
+				weld2.Part0 = torso
+				weld2.Parent = torso
+				weld2.Part1 = arms[2]
+				weld2.C1 = CFrame.new(-1, -0.5, 0.35) * CFrame.fromEulerAnglesXYZ(math.rad(-90), math.rad(-30), 0)
+				welds[2] = weld2
+			end
+		else
+			print("sh")
+		end
+	else
+		print("arms")
+	end
+end
+
+function Unequip(mouse)
+	if arms ~= nil and torso ~= nil then
+		local sh = {torso:FindFirstChild("Left Shoulder"), torso:FindFirstChild("Right Shoulder")}
+		if sh ~= nil then
+			local yes = true
+			if yes then
+				yes = false
+				sh[1].Part1 = arms[1]
+				sh[2].Part1 = arms[2]
+				welds[1].Parent = nil
+				welds[2].Parent = nil
+			end
+		else
+			print("sh")
+		end
+	else
+		print("arms")
+	end
+end
+
+Tool.Equipped:connect(Equip)
+Tool.Unequipped:connect(Unequip)
+
+end))
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = game:GetService("Players").LocalPlayer.Backpack
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
+   end,
+})
