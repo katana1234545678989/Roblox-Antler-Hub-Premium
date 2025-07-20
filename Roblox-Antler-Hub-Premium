@@ -51,7 +51,7 @@ local Tab = Window:CreateTab("Ink Game", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Ink Game(some functions may not work, dm Antlar on the Discord Server)",
    Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/TuffGuys/TuffGuys/refs/heads/main/Loader"))()
    end,
 })
 
