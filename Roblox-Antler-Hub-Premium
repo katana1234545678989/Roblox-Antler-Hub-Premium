@@ -49,7 +49,7 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Ink Game", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "Ink Game(some functions may not work, dm Antlar on the Discord Server)",
+   Name = "Ink Game (Updated)",
    Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/TuffGuys/TuffGuys/refs/heads/main/Loader"))()
    end,
@@ -105,7 +105,7 @@ local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Steal A Brainrot( Probably Down RN)",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/ArbixHubBEST.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/scripts/refs/heads/main/sab_loader.lua"))()
    end,
 })
 
