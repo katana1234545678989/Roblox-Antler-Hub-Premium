@@ -152,6 +152,6 @@ local Tab = Window:CreateTab("99 Night In The Forest", 4483362458) -- Title, Ima
 local Button = Tab:CreateButton({
    Name = "99 Night In The Forest",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kedd063/KdmlScripts/refs/heads/main/99-Night-İn-The-Forest"))()
+    loadstring(game:HttpGet("https://soluna-script.vercel.app/99-Nights-in-the-Forest.lua",true))()
    end,
 })
