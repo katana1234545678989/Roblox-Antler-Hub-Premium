@@ -143,6 +143,15 @@ local Tab = Window:CreateTab("Pop It Trading", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Pop It Trading",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/Really%20op%20script%20pop%20it%20trading"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/Really%20op%20script%20pop%20it%20trading"))()
+   end,
+})
+
+local Tab = Window:CreateTab("99 Night In The Forest", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "99 Night In The Forest",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kedd063/KdmlScripts/refs/heads/main/99-Night-İn-The-Forest"))()
    end,
 })
